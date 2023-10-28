@@ -89,3 +89,10 @@ pre {
     overflow-x: auto;
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* Add an IG icon */
+.ig-icon::before {
+    content: "\f16d"; /* This is the code for the Instagram icon in Font Awesome */
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 5px;
+}

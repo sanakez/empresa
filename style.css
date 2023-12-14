@@ -6,8 +6,8 @@ body, h1, h2, p, ul, li {
 
 /* Basic styles for the body and header */
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
     color: #333; /* Dark text */
     margin: 0;
     padding: 0;
@@ -33,31 +33,33 @@ section {
     background-color: #fff; /* White section background */
     margin: 20px;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Styles for headings */
 h2 {
     color: #3498db; /* Blue heading text */
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
 /* Styles for lists */
 ul {
     list-style-type: disc;
     margin-left: 20px;
-    color: #333; /* Dark text */
+    color: #555; /* Darker text */
 }
 
 /* Styles for links */
 a {
     color: #3498db; /* Blue link text */
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #2073c2; /* Slightly darker blue on hover */
 }
 
 /* Styles for the footer */
@@ -83,8 +85,8 @@ code {
 pre {
     background-color: #f0f0f0; /* Light gray code background */
     color: #333; /* Dark code text */
-    padding: 10px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 8px;
     border: 1px solid #ddd; /* Light gray border */
     overflow-x: auto;
     font-family: 'Courier New', Courier, monospace;

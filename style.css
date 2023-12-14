@@ -7,8 +7,8 @@ body, h1, h2, p, ul, li {
 /* Basic styles for the body and header */
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #1e1e1e;
-    color: #fff;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark text */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -16,11 +16,11 @@ body {
 
 /* Header styles */
 header {
-    background-color: #282c35;
-    color: #61dafb;
+    background-color: #3498db; /* Blue header */
+    color: #fff; /* White text */
     text-align: center;
     padding: 20px 0;
-    border-bottom: 1px solid #61dafb;
+    border-bottom: 1px solid #2980b9; /* Slightly darker blue border */
 }
 
 header h1 {
@@ -30,7 +30,7 @@ header h1 {
 
 /* Styles for sections */
 section {
-    background-color: #282c35;
+    background-color: #3498db; /* Blue section */
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
@@ -39,7 +39,7 @@ section {
 
 /* Styles for headings */
 h2 {
-    color: #61dafb;
+    color: #fff; /* White heading text */
     font-size: 1.5em;
 }
 
@@ -47,12 +47,12 @@ h2 {
 ul {
     list-style-type: disc;
     margin-left: 20px;
-    color: #fff;
+    color: #333; /* Dark text */
 }
 
 /* Styles for links */
 a {
-    color: #61dafb;
+    color: #3498db; /* Blue link text */
     text-decoration: none;
 }
 
@@ -65,15 +65,15 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #333;
-    color: #61dafb;
+    color: #3498db; /* Blue footer text */
 }
 
 /* Highlighted styles for code */
 code {
     background-color: #333;
-    color: #61dafb;
+    color: #3498db; /* Blue code text */
     padding: 2px 4px;
-    border: 1px solid #61dafb;
+    border: 1px solid #3498db; /* Blue border */
     border-radius: 4px;
     font-size: 14px;
     font-family: 'Courier New', Courier, monospace;
@@ -82,10 +82,10 @@ code {
 /* Add a code block style for multiline code */
 pre {
     background-color: #333;
-    color: #61dafb;
+    color: #3498db; /* Blue code text */
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #61dafb;
+    border: 1px solid #3498db; /* Blue border */
     overflow-x: auto;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -95,4 +95,5 @@ pre {
     content: "\f16d"; /* This is the code for the Instagram icon in Font Awesome */
     font-family: 'Font Awesome 5 Free';
     margin-right: 5px;
+    color: #3498db; /* Blue icon color */
 }

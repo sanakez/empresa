@@ -2,13 +2,14 @@
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Basic styles for the body and header */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333; /* Dark text */
+    background-color: #000;
+    color: #fff;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -16,86 +17,87 @@ body {
 
 /* Header styles */
 header {
-    background-color: #3498db; /* Blue header */
-    color: #fff; /* White text */
+    background-color: #111;
+    color: #fff;
     text-align: center;
     padding: 20px 0;
-    border-bottom: 2px solid #2980b9; /* Darker blue border */
+    border-bottom: 2px solid #444;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Styles for sections */
 section {
-    background-color: #fff; /* White section background */
+    background-color: #222;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    text-align: left; /* Adjusted text alignment */
+    display: inline-block;
 }
 
 /* Styles for headings */
 h2 {
-    color: #3498db; /* Blue heading text */
+    color: #3498db;
     font-size: 2em;
     margin-bottom: 15px;
+    font-weight: bold; /* Added font weight */
 }
 
 /* Styles for lists */
 ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    color: #555; /* Darker text */
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 /* Styles for links */
 a {
-    color: #3498db; /* Blue link text */
+    color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-weight: bold; /* Added font weight */
 }
 
 a:hover {
-    color: #2073c2; /* Slightly darker blue on hover */
+    color: #2073c2;
 }
 
 /* Styles for the footer */
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: #333;
-    color: #fff; /* White footer text */
-}
-
-/* Highlighted styles for code */
-code {
-    background-color: #f0f0f0; /* Light gray code background */
-    color: #333; /* Dark code text */
-    padding: 3px 6px;
-    border: 1px solid #ddd; /* Light gray border */
-    border-radius: 4px;
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-/* Add a code block style for multiline code */
-pre {
-    background-color: #f0f0f0; /* Light gray code background */
-    color: #333; /* Dark code text */
-    padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #ddd; /* Light gray border */
-    overflow-x: auto;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #111;
+    color: #fff;
 }
 
 /* Add an IG icon */
 .ig-icon::before {
-    content: "\f16d"; /* Instagram icon in Font Awesome */
+    content: "\f16d";
     font-family: 'Font Awesome 5 Free';
     margin-right: 5px;
-    color: #3498db; /* Blue icon color */
+    color: #3498db;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    section {
+        width: 100%;
+        margin: 10px;
+        padding: 15px;
+    }
 }
